@@ -5,7 +5,7 @@ module "resourcegroup" {
   source    = "./modules/resourcegroup"
   resource_group_name           = var.name
   location                      = var.location
-  rg_additional_tags            = var.additional_tags
+  rg_additional_tags            = var.additional_tags #Test
 }
 
 ###########################################################################################
